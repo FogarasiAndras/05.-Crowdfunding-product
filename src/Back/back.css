@@ -1,0 +1,218 @@
+/* BACK CARD */
+
+.cardgroup {
+  padding:30px;
+  margin:30px;
+  z-index: 1;
+  position: absolute;
+}
+
+#backcard {
+  
+  width:100% !important;
+  border: solid 2px rgb(129, 125, 67);
+  margin: auto;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  background-image: url("./Backimgs/wood2.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
+  border-radius: 15px;
+  opacity:1.4 !important;
+}
+
+/* Title, subtitle of the back card */
+
+#smallparent{
+  position: relative;
+  height: 1400px; 
+}
+
+#h6textbamboo{
+  color:black;
+}
+
+h5, h6{
+  display: inline;
+}
+
+
+/* Class of smallcards in back.js */
+
+
+#norewardsmall{
+  padding-top:50px;
+  
+}
+#bamboosmall{
+  padding-top:350px;
+  
+}
+#blacksmall{
+  padding-top:650px;
+}
+#machagonysmall{
+  padding-top:950px;
+}
+
+
+#norewardsmall, #bamboosmall, #blacksmall, #machagonysmall{
+  position: absolute;
+  width: 100%;
+  padding-left:0px;
+  padding-right: 0px;
+  margin-left:0px;
+  margin-right: 0px;
+}
+
+/* Common classes, id-s among smallcards */
+
+.tinycard {
+  color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 1px solid rgb(194, 194, 194);
+  padding-top: 30px;
+  width:100%;
+  text-align: left;
+  border-radius: 15px;
+  position: relative;
+}
+
+.tinycard:hover{ 
+  border: 3px solid rgb(29, 126, 88);
+}
+
+.text{
+  color:rgb(206, 206, 206);
+}
+
+#pledge25, #pledge75, #pledge200 {
+  font-weight: bold;
+  color: rgb(101, 209, 191);
+}
+
+#firstdivadd, #seconddivadd, #thirddivadd, #fourthdivadd{
+  border-top: solid 1px rgb(231, 230, 230);
+}
+
+.smalltitle{
+  margin-left:18px;
+  color: rgb(233, 230, 230) !important;
+}
+
+
+/* Checkboxes */
+
+.checkbox{
+  
+  margin-left: -30px;
+  width: 1em;
+  height: 1em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  background-color:rgb(36, 95, 86);
+  border: 3px solid rgb(207, 207, 207);
+}
+
+/*Inputs*/
+
+#firstinput, #secondinput, #thirdinput, #fourthinput{
+  border:1px solid grey;
+  height:40px;
+  width:60px;
+  text-align: center;
+}
+
+/* Smallcard1 */
+
+#norewardimg {
+  background-image: url("./Backimgs/metal.jpg");
+    position: relative;
+    color:black
+}
+
+#check1div{
+  color:white;
+}
+
+#norewardtext, #norewardtitle  {
+  color: white !important;
+}
+
+/* Smallcard2 */
+
+#bambooimg {
+  background-image: url("./Backimgs/darkbamboo.jpg");
+}
+
+
+/* Smallcard3 */
+
+#blackimg {
+  background-image: url("./Backimgs/dark_wood.jpg");
+}
+
+/* Smallcard4 */
+
+#machagonyimg {
+  background-image: url("./Backimgs/machagony.jpg");
+}
+
+.rightbuttons{
+  text-align:right;
+}
+
+
+/* Thank Cards */
+
+#thankcard1, #thankcard2, #thankcard3, #thankcard4 {
+  background-image:url("./Backimgs/thankwood.png");
+  color:white;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.gotbtn {
+  background-color: rgb(101, 209, 191);
+  border-radius: 45px;
+  width:150px;
+  display: inline;
+  margin: auto;
+}
+
+.gotbtn:hover{
+  background-color:rgb(36, 95, 86);
+  color:white;
+}
+
+#iconcheck {
+  background-image: url("./Backimgs/icon-check.svg");
+  background-repeat: no-repeat;
+  height:70px;
+  background-position: center;
+}
+
+
+
+
+/* Modals */
+#backmodal1, #backmodal2, #backmodal3, #backmodal4 {
+  width: 35% !important; 
+  height: 45% !important;
+  padding: 0px !important;
+  margin: auto;
+  overflow:hidden
+}
+

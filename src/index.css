@@ -1,0 +1,403 @@
+/* NAVBAR */
+
+.navbar {
+  padding-left:80px;
+  padding-right:80px;
+  padding-top: 40px;
+  padding-bottom: 310px;
+  background-image: url("images/image-hero-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgb(231, 230, 230)!important;
+  
+}
+
+/* navbar positioning to the right */
+
+.navbar-nav {
+  margin-left:auto;
+}
+
+/* color, font */
+
+.nav-link, .navbar-brand {
+  color:white;
+}
+.nav-link {
+  font-size:14px;
+  
+}
+.nav-link:hover {
+  color:black;
+}
+
+/* navbar brand */
+
+.navbar-brand {
+  font-size:30px;
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+.navbar-brand:hover {
+  color:white;
+}
+
+/* MAIN1 */
+#firstcard{
+  border: none;
+ }
+ /*title*/
+ #bamboo{
+   font-weight: bold;
+   font-family: "Bookman", "URW Bookman L", serif;
+ }
+ /*subtitle*/
+ #monitor{
+   color:grey;
+ }
+
+/*mastercraft logo positioning and style */
+
+#masterimg {
+  background-image: url("images/logo-mastercraft.svg");
+  background-position: center;
+  height:60px;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom:70px;
+
+}
+
+/* Back button */
+
+#backcol{
+  padding-left:10%;
+  
+}
+#back{
+  background-color:rgb(101, 209, 191);
+  color:whitesmoke;
+  border-radius:45px;
+  height:56px;
+  float:left;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+#back:hover{
+  color: whitesmoke;
+  background-color:rgb(36, 95, 86);
+}
+
+
+
+/*Back this project pop up window css*/
+.backpopup{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1;
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+
+/* Bookmark button */
+
+#bookmarkcol{
+  padding-right:10%;
+}
+
+#bookmark{
+  border-radius:45px;
+  height:56px;
+  background: url("images/icon-bookmark.svg");
+  background-repeat: no-repeat;
+  background-color: rgb(231, 230, 230);
+  padding-left: 70px;
+  padding-right:30px;
+  color:rgb(92, 92, 92);
+  float:right;
+}
+#bookmark:hover{
+  background-color: black;
+  color:rgb(231, 230, 230);
+}
+
+#bookmark:focus{
+  color: whitesmoke;
+  background-color:rgb(36, 95, 86);
+}
+
+
+/* MAIN2 */
+#secondcard{
+  border: none;
+}
+
+.backers {
+  border-right:1px solid rgb(231, 230, 230);
+}
+
+/* flip cards */
+/* flip card container */
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px; /* 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do a horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+ 
+}
+
+
+
+/* Style the back side */
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Front of the first flip card */
+
+#firstfront {
+  background-image: url("images/money.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:100px;
+}
+
+/* Front of the second flip card */
+
+#secondfront{
+  background-image: url("images/person.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:100px;
+}
+
+/* Front of the third flip card */
+
+
+#thirdfront{
+  background-image: url("images/diary.jpg") !important;
+  background-size: 17%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:100px;
+}
+
+/* horisontal lines */
+
+#hrs{
+  position:relative;
+  top:60px;
+  
+}
+
+#hr1 {
+  border:5px solid rgb(231, 230, 230);
+  border-radius: 15px;
+  margin-left: 10%;
+  width:80%;
+}
+
+#hr2{
+  border:5px solid rgb(101, 209, 191);
+  border-radius: 15px;
+  margin-left:10%;
+  width:60%;
+  position: relative;
+  bottom: 26px;
+}
+
+/*MAIN3*/
+
+/*Main3 upper section*/
+/*texts*/
+.mastercrafttext {
+  text-align:left;
+}
+
+/*titles*/
+#abouttitle {
+  text-align: left;
+}
+
+/*pledge buttons*/
+.rightbuttons{
+  text-align:right;
+}
+
+.btn-link{
+  color:rgb(101, 209, 191);
+  font-weight: bolder;
+  text-decoration: none;
+}
+.btn-link:hover{
+  color:rgb(231, 230, 230);
+  border-radius:45px;
+  text-decoration: none;
+}
+
+/* Smallcards */
+.smallcard {
+  margin-left: 0px;
+  margin-right: 0px;
+  width:100% !important;
+  text-align: left  !important;
+ 
+}
+.smallcard:hover{ 
+  transform: scale(1.1);
+}
+
+
+/* Select buttons */
+.select {
+  background-color:rgb(101, 209, 191);
+  color:whitesmoke;
+  border-radius:45px;
+  height:40px;
+  float:right;
+  padding-left: 28px;
+  padding-right: 28px;
+  width:160px;
+}
+
+.select:hover{
+  color: whitesmoke;
+  background-color:rgb(36, 95, 86);
+}
+
+/*Machagony card, lighter color*/
+
+#machagony{
+  color: grey;
+}
+#machagonypledge{
+  color: rgb(183, 211, 206);
+}
+
+.text{
+  color:grey;
+  
+}
+
+/* Out of stock button */
+#stock{
+  background-color: rgb(207, 203, 203);
+}
+
+.changetransform:hover{
+  transform: scale(1) !important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* my css */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* COMMON */
+body {
+  background-color: rgb(231, 230, 230);
+}
+h3, h5{
+  font-weight: bold;
+}
+
+h6{
+  color:grey;
+}
+
+
+/* Style, postioning for the card */
+.card{
+
+ padding:3%;
+ width:60%;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 30px;
+ margin-bottom:30px;
+
+}
+
+
+#main1, #main2, #main3 {
+ position: relative;
+  bottom: 140px; 
+}
+
+
+
+#modal1, #modal2 {
+  width: 35% !important; 
+  height: 45% !important;
+  padding: 0px !important;
+  margin: auto;
+  overflow:hidden
+}
+
+
+#thankbody1, #thankbody2 {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
